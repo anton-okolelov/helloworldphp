@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "target": "esnext",
+    "outDir": "web/ts",
+    "lib": [
+      "dom",
+      "scripthost",
+      "es5",
+      "es6",
+      "es7"
+    ],
+    "jsx": "react"
+  },
+  "include": [
+    "frontend/**/*.ts",
+    "frontend/**/*.tsx"
+  ]
+}
