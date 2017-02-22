@@ -5,3 +5,4 @@ env:
   NODE_ENV=production
 install:
   npm install
+  npm install webpack -g
