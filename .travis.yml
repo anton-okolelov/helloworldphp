@@ -6,3 +6,5 @@ env:
 install:
   - npm install
   - npm install webpack -g
+script:
+  - webpack
